@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket       = "zen-pharma-terraform-state-subramana"
+    bucket       = "zen-pharma-terraform-state-sairamguthula8"
     key          = "envs/prod/terraform.tfstate"
     region       = "us-east-1"
     encrypt      = true
